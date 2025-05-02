@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 20px;
+}
+
+.name-image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-pic {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.contact {
+    text-align: right;
+}
+
+img{
+    width: 100px;
+    height: auto;
+    border-radius: 2px;
+    size: 50px;
+}
+.academics ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* two columns */
+    gap: 40px 60px; /* vertical and horizontal spacing */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education-item {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+  
